@@ -1,0 +1,102 @@
+/*palette de couleur du site*/
+:root{
+    --bluefoncé: #2b2b2c;
+    --bleu2:#386FA4;
+    --bleu3:#59A5D8;
+    --bleu4:#84D2F6;
+    --bleu5:#91E5F6;
+    --jaunef:#E4DD10;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 10 auto;
+}
+
+
+.page-footer{
+    background: linear-gradient( to bottom right,var(--bluefoncé),var(--bleu2),var(--bleu3),var(--bleu4));
+}
+
+/*Style du logo*/
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.bloc-fiche{
+    width:100%;
+    display: flex;
+justify-content: center;
+margin-top:5%;
+}
+
+
+.fiche{
+    width:80%;
+    height:650px;
+    background-color: white;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.image-validation{
+    width:100%;
+    height:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-validation{
+    width:100%;
+    height:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.boutton-fiche-validation{
+    width:80%;
+    background-color:#878E9F;
+    height: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.boutton-fiche-validation p{
+color: #fff;
+}
+
+.boutton-fiche-validation:hover{
+    height:90px;
+    width:85%;
+    background-color: #878E9F;
+}
+
+.boutton-fiche-validation:focus{
+    height:90px;
+    width:85%;
+    background-color: #878E9F;
+}

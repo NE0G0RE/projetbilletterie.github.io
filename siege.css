@@ -1,0 +1,13 @@
+/* styles.css */
+form {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  label {
+  margin-bottom: 0.5em;
+  }
+  
+  input[type="number"] {
+  width: 50px;
+  }

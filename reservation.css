@@ -1,0 +1,23 @@
+/* CSS: */
+
+#plan-des-places {
+width: 500px;
+height: 500px;
+background-color: #CCC;
+border: 1px solid #333;
+}
+
+.place-libre {
+width: 50px;
+height: 50px;
+background-color: #FFF;
+border: 1px solid #333;
+cursor: pointer;
+}
+
+.place-reservee {
+width: 50px;
+height: 50px;
+background-color: #333;
+border: 1px solid #333;
+}

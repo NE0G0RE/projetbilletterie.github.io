@@ -1,0 +1,234 @@
+body {
+  background-color: #c5c5c5;
+  height: 120vh;
+}
+
+.section-salle {
+  display: flex;
+  justify-content: center;
+}
+
+.salle {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  width: 300px;
+  height: 240px;
+}
+
+.sallepartie1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  height: 240px;
+}
+
+.sallepartie1 .ligne:nth-child(1) {
+  justify-content: none;
+  justify-content: center;
+}
+
+.sallepartie2 .ligne:nth-child(4) {
+  justify-content: none;
+  justify-content: center;
+}
+
+.inter-salle {
+  width: 30px;
+  height: 240px;
+}
+
+.sallepartie2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  height: 240px;
+}
+
+.ligne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30px;
+  height: 240px;
+}
+
+.bloc {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #4f555c;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0t2s ease-in;
+}
+
+.bloc:hover {
+  background-color: #C08A01;
+}
+.bloc:focus {
+  background-color: #C08A01;
+}
+
+.container9 {
+  width: 360px;
+  height: 82px;
+  border-top: 2px black;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(135, 142, 159, 0.0001) 100%
+  );
+}
+.container2 {
+  width: 100%;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.section-temps {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.bloc-principal-heure {
+  background-color: #cacfdb;
+  width: 360px;
+  height: 290px;
+  border-radius: 30px;
+}
+.hidden {
+  display: none;
+}
+
+.ligne-horaire {
+  margin: 20px;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc-horaire {
+  background-color: #e7e9f0;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  justify-content: flex-end;
+  text-align: center;
+  color: #8e99af;
+  transition: background-color 1s;
+}
+
+.bloc-horaire:focus {
+  background-color: #878e9f;
+  color: white;
+  height: 120px;
+}
+
+.bloc-horaire:hover {
+  background-color: #878e9f;
+  cursor: pointer;
+}
+
+.is-visible {
+  display: block;
+}
+
+.bloc-horaire p {
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+.ligne-reservation {
+  width: 360px;
+  height: 50%;
+  display: flex;
+  justify-content: end;
+}
+.bloc-reservation {
+  border-radius: 20px;
+  width: 171px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #878e9f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.bloc-reservation:focus {
+  background-color: #878e9f;
+}
+
+.bloc-reservation:hover {
+  height: 75px;
+  width: 176px;
+  cursor: pointer;
+}
+
+.section-cercle {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+}
+.ligne-information {
+  width: 33.3%;
+  height: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+  color: white;
+}
+
+.info {
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  border: 1px solid #4f555c;
+  font-size: 10px;
+  text-align: end;
+}
+
+.bloc-dispo {
+  width: 50.3%;
+  height: 39px;
+  display: flex;
+}
+
+.info-1 {
+  background-color: #878e9f;
+}
+
+.info-2 {
+  background-color: #cacfdb;
+}
+
+.info-3 {
+  background-color: #ffffff;
+}
+
+.bloc-margin {
+  margin-top: 3.75px;
+}
+
+.hidden {
+  display: none;
+}
